@@ -1,0 +1,93 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 26px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+/* ------------------------------ */
+.header {
+	color: brown;
+}
+.nav a {
+	color: rgb(99, 35, 119);
+}
+section h2 {
+	color: lightcoral;
+	font-weight: 900;
+}
+.nav__title {
+	color: deeppink;
+}
+.nav__items .nav__link {
+	color: rgb(88, 134, 42);
+}
+.header .nav__items li {
+	color: rgb(22, 165, 9);
+}
+.nav__items > li {
+	list-style: inside;
+}
+.nav__items :first-child {
+	color: dodgerblue;
+}
+.main {
+	background-color: rgb(245, 231, 195);
+}
+main > section p.red {
+	color: lightgreen;
+}
+.section p.red {
+	color: red;
+}
+.section h2 {
+	color: darkgoldenrod;
+}
+.section > p {
+	color: darkgreen;
+}
+p {
+	color: indigo;
+}
+.footer {
+	color: darkslateblue;
+}
+p.red span {
+	color: lightseagreen;
+	font-size: 30px;
+	font-weight: 900;
+}
+p span {
+	color: black;
+	font-size: 50px;
+	font-weight: 900;
+}
