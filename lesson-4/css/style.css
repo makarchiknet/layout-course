@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,800&display=swap&subset=cyrillic-ext);
+
+@font-face {
+	font-family: "Forum";
+	src: url("../fonts/Forum.woff2") format("woff2"), url("../fonts/Forum.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lobster";
+	src: url("../fonts/Lobster.woff2") format("woff2"), url("../fonts/Lobster.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: "Montserrat";
+	line-height: 1;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* ------------------------------ */
+
+._container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.header__title {
+	font-size: 50px;
+	font-weight: 400;
+	font-family: "Forum";
+	text-align: center;
+	text-shadow: 3px 3px 10px rgb(110, 109, 109);
+	color: rgb(43, 48, 107);
+	line-height: 250%;
+}
+p {
+	font-size: 18px;
+	text-indent: 30px;
+	white-space: normal;
+	line-height: 200%;
+	text-align: justify;
+}
+.nav__content {
+	line-height: 200%;
+	text-indent: 30px;
+	font-size: 25px;
+	font-weight: 400;
+}
+.nav__list {
+	font-size: 18px;
+	line-height: 200%;
+}
+.nav__list li {
+	list-style-type: decimal;
+}
+.nav__link {
+	color: lightseagreen;
+}
+
+.text-decoration {
+	font-family: "Lobster";
+	font-size: 30px;
+	text-align: center;
+	color: grey;
+	line-height: 120%;
+}
+
+h2 {
+	font-family: "Forum";
+	font-size: 35px;
+	line-height: 200%;
+	text-align: center;
+	text-decoration: underline;
+	color: rgb(241, 42, 7);
+	letter-spacing: 3px;
+}
+.desc-img {
+	font-size: 20px;
+	line-height: 300%;
+	text-align: center;
+}
+.desc-img span {
+	font-weight: 800;
+	text-transform: uppercase;
+	color: lightseagreen;
+}
+img {
+	margin: 20px 0;
+}
+
+h3 {
+	font-family: "Forum";
+	font-weight: 400;
+	line-height: 250%;
+	font-size: 30px;
+}
+.list li {
+	list-style-position: inside;
+	list-style-type: disc;
+	color: lightseagreen;
+	font-size: 20px;
+	line-height: 150%;
+}
+.list li span {
+	color: orange;
+}
+.img {
+	text-align: center;
+}
+span.decoration {
+	color: lightseagreen;
+	font-weight: 800;
+}
+.img img {
+	width: 80%;
+}
+#link4 li {
+	text-transform: uppercase;
+}
+.footer {
+	margin-top: 50px;
+}
+.footer p {
+	font-size: 20px;
+	text-align: right;
+}
+.footer span {
+	font-size: 25px;
+	font-weight: 400;
+}
