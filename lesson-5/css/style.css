@@ -256,6 +256,28 @@ body {
 	padding-bottom: 20px;
 }
 
+.div-content {
+	max-width: 450px;
+	max-height: 150px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #ffffff;
+}
+.bottom-div {
+	background-color: #fffb05;
+	margin-top: -30px;
+	margin-left: 250px;
+}
+.span-content {
+	font-size: 30px;
+	color: #ff6347;
+	display: inline-block;
+	max-height: 200px;
+	overflow: auto;
+	background-color: #ffffff;
+	padding: 30px;
+}
+
 /* ------------------------- */
 .footer {
 	background-color: #add8e6;
