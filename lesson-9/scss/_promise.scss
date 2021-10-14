@@ -1,0 +1,42 @@
+.promise {
+   padding: 100px 0px 126px 0px;
+
+   &__logo {
+   }
+
+   &__title {
+      margin-bottom: 70px;
+   }
+
+   &__items-body {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .item {
+      display: flex;
+      width: calc(33.33% - 16px);
+
+      &__img {
+         margin-right: 23px;
+      }
+
+      &__description {
+      }
+
+      &__title {
+         font-weight: 900;
+         font-size: 19px;
+         line-height: 1.37;
+         color: $color-salmon;
+         margin-bottom: 20px;
+      }
+
+      &__text {
+         font-size: 16px;
+         line-height: 1.5;
+         letter-spacing: 0.15px;
+         color: $color-grey;
+      }
+   }
+}
