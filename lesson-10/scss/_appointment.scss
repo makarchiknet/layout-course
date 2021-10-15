@@ -1,0 +1,100 @@
+.appointment {
+   background: url(../img/appointment/Blob2.svg)no-repeat,
+      url(../img/appointment/Stylize-Circles.svg)no-repeat, url(../img/appointment/appointment_bg.jpg) no-repeat;
+   background-size: auto, auto, cover;
+   background-position: top -7px left -41px, top 239px left 58px, center;
+
+   &__container {
+      padding: 130px 0px 210px 0px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__form {
+   }
+
+   &__description {
+      margin-top: -20px;
+      margin-left: 30px;
+      text-align: center;
+      color: $color-white;
+      align-self: center;
+      font-weight: 900;
+      max-width: 325px;
+   }
+   &__description > *:not(:last-child) {
+      margin-bottom: 44px;
+   }
+   &__title {
+      font-size: 30px;
+      line-height: 1.2;
+   }
+
+   &__number {
+      font-size: 96px;
+      line-height: 1;
+   }
+
+   &__text {
+      font-size: 19px;
+      line-height: 1.37;
+   }
+}
+
+.form {
+   max-width: 585px;
+   background-color: $bg-blue;
+   border-radius: 40px;
+   padding: 76px 57px;
+   box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+
+   &__title {
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 1.17;
+      text-align: center;
+      color: $color-white;
+      margin-bottom: 47px;
+   }
+   &__input-body {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 25px;
+   }
+   & input,
+   & select,
+   & textarea {
+      display: block;
+      background-color: transparent;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      padding: 15px 24px;
+   }
+   & input,
+   & select {
+      flex: 0 1 calc(50% - 11.22px);
+      margin-bottom: 22px;
+   }
+   & textarea {
+      flex: 0 1 100%;
+      resize: none;
+   }
+
+   & input::placeholder,
+   & textarea::placeholder {
+      color: $color-white;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.15px;
+   }
+   & textarea::placeholder {
+      font-family: "Roboto";
+   }
+
+   &__btn {
+      display: block;
+      margin-left: auto;
+      padding: 12px 30px;
+   }
+}

@@ -1,0 +1,41 @@
+.dog {
+   position: relative;
+   background: url(../img/dog/Blob-3.svg)no-repeat, url(../img/dog/Stylize-Circles.svg) no-repeat, $color-light-blue;
+
+   background-position: top -130px left -160px, bottom 60px left -45px;
+   overflow: hidden;
+
+   &__img-dog {
+      position: absolute;
+      left: -40px;
+      bottom: 0;
+      z-index: 4;
+   }
+   &__img-line {
+      position: absolute;
+      right: 50px;
+      z-index: 2;
+   }
+   &__img-ball {
+      position: absolute;
+      right: -5px;
+      top: 114px;
+      z-index: 3;
+   }
+
+   &__body {
+      min-height: 500px;
+      position: relative;
+      z-index: 5;
+      margin-left: auto;
+      max-width: 411px;
+      padding-top: 112px;
+   }
+   &__header {
+      margin: 0px 0px 45px 0px;
+   }
+
+   &__btn {
+      padding: 12px 34px;
+   }
+}
