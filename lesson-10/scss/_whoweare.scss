@@ -1,0 +1,57 @@
+// !!--------------------
+.who-we-are {
+   &__container {
+      background: $bg-blue url(../img/who_we_are/Blob_2.svg) -4% 235% no-repeat;
+      margin-top: -80px;
+      border-radius: 40px;
+      padding: 100px 87px 300px 87px;
+      position: relative;
+
+      &::before {
+         content: "";
+         display: block;
+         width: 201px;
+         height: 317px;
+         background: url(../img/who_we_are/Stylize_Circles.svg) center/cover no-repeat;
+         position: absolute;
+         top: -109px;
+         right: -76px;
+      }
+   }
+
+   &__header {
+      margin: 0px 0px 36px 0px;
+   }
+
+   &__title {
+      margin-bottom: 36px;
+      max-width: 585px;
+   }
+
+   &__text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.15px;
+      color: $color-light-grey;
+      margin-bottom: 56px;
+   }
+
+   &__img {
+      position: absolute;
+
+      margin-bottom: -120px;
+      width: calc(100% - 174px);
+      height: 60%;
+      border-radius: 40px;
+      overflow: hidden;
+      box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+      z-index: 5;
+   }
+   &__img img {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      object-fit: cover;
+   }
+}
