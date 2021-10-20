@@ -1,0 +1,61 @@
+.footer {
+}
+
+.company {
+   background-color: $bg-blue;
+   padding: 20px 0px;
+   &__wrap {
+      max-width: 1110px;
+      margin: 0 auto;
+      padding: 0px 15px 0px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      line-height: 1.5;
+      letter-spacing: 0.15px;
+      color: $color-white;
+   }
+
+   &__text {
+      padding-right: 30px;
+   }
+
+   &__body {
+      display: flex;
+      align-items: center;
+   }
+
+   &__years {
+      margin-right: 10px;
+   }
+   &__links {
+      color: $color-white;
+   }
+
+   &__links a {
+      font-weight: 700;
+      color: $color-white;
+      position: relative;
+      transition: all 0.3s ease-in;
+   }
+   &__links a:hover {
+      color: $btn-color;
+      font-weight: 700;
+      position: relative;
+   }
+   &__links a:not(:last-child) {
+      padding-right: 10px;
+      margin-right: 5px;
+   }
+   &__links a:not(:last-child)::after {
+      content: "";
+      display: block;
+      background-color: #fff;
+      width: 1px;
+      height: 12px;
+      position: absolute;
+      top: 0;
+      right: 0;
+   }
+}

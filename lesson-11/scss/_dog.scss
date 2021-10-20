@@ -1,0 +1,33 @@
+.dog {
+   position: relative;
+   background: url(../img/dog/blob3.png)no-repeat,
+      url(../img/dog/circles.svg)no-repeat,
+         url(../img/dog/tennis-ball.png)no-repeat, url(../img/dog/Line1.svg)no-repeat, $color-light-blue;
+   background-position: top -130px left -160px, bottom 60px left -45px, top 114px right -5px, top 0px right 50px;
+   overflow: hidden;
+   &__container {
+      position: relative;
+   }
+   &__img-dog {
+      position: absolute;
+      left: -18%;
+      bottom: 0;
+      z-index: 4;
+   }
+
+   &__body {
+      min-height: 500px;
+      position: relative;
+      z-index: 5;
+      margin-left: auto;
+      max-width: 411px;
+      padding-top: 112px;
+   }
+   &__header {
+      margin: 0px 0px 45px 0px;
+   }
+
+   &__btn {
+      padding: 12px 34px;
+   }
+}

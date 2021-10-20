@@ -1,0 +1,101 @@
+.impact {
+   // background-color: $color-light-blue;
+   background: $color-light-blue url(../img/impact/Blob2.svg) top 0 right 70px no-repeat;
+
+   &__container {
+      padding: 112px 0px 212px 0px;
+      position: relative;
+   }
+   &__body {
+      margin: 0px 0px 76px 0px;
+   }
+   &__logo {
+      margin-bottom: 27px;
+   }
+
+   &__title {
+      max-width: 411px;
+   }
+
+   &__img {
+      position: absolute;
+      top: -80px;
+      right: 0;
+      width: 48.9%;
+      height: 51.7%;
+      border-radius: 40px;
+      overflow: hidden;
+   }
+   &__img img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+   }
+   &__items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   &__items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   &__items > div:not(:last-child) {
+      margin-right: 20px;
+   }
+
+   &__appointment {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      bottom: -72px;
+      background-color: $bg-blue;
+      padding: 45px 72px 45px 72px;
+      border-radius: 20px;
+      width: 100%;
+   }
+   &__desc {
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 1.25;
+      max-width: 562px;
+      padding-right: 30px;
+      color: $color-white;
+   }
+   &__link {
+      padding: 12px 35px;
+   }
+}
+
+.item-impact {
+   flex: 0 1 calc(25% - 18px);
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   &__img {
+      display: inline-flex;
+      margin-right: 11px;
+   }
+
+   &__body {
+      display: flex;
+      flex-direction: column;
+   }
+
+   &__number {
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 1.15;
+      color: $color-white;
+   }
+
+   &__title {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.15px;
+      color: $bg-blue;
+   }
+}
