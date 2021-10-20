@@ -1,0 +1,42 @@
+.promise {
+   padding: 230px 0px 126px 0px;
+
+   &__header {
+      margin-bottom: 67px;
+   }
+
+   &__items-body {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   &__items-body > div:not(:last-child) {
+      margin-right: 24px;
+   }
+}
+
+.item-promise {
+   display: flex;
+   width: calc(33.33% - 16px);
+
+   &__img {
+      margin-right: 25px;
+   }
+
+   &__description {
+   }
+
+   &__title {
+      font-weight: 900;
+      font-size: 19px;
+      line-height: 1.8;
+      color: $color-salmon;
+      margin-bottom: 15px;
+   }
+
+   &__text {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.15px;
+      color: $color-grey;
+   }
+}
