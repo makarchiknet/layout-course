@@ -1,0 +1,52 @@
+.customers {
+   &__container {
+      padding: 240px 0px 205px 0px;
+      display: flex;
+      justify-content: space-between;
+   }
+   &__container > div {
+      flex: 0 1 calc(33.33% - 16px);
+   }
+}
+
+.feedback {
+   &__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: $color-white;
+      border-radius: 20px;
+      padding: 45px 43px 45px 44px;
+   }
+
+   &__text {
+      margin-bottom: 40px;
+      color: $color-grey;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.15px;
+   }
+   &__text::before {
+      content: "“";
+   }
+   &__text::after {
+      content: "”";
+   }
+
+   &__person {
+      display: flex;
+      align-items: center;
+   }
+
+   &__img {
+      margin: 0px 20px 0px 0px;
+   }
+
+   &__name {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.5x;
+      letter-spacing: 0.15px;
+      color: $color-salmon;
+   }
+}

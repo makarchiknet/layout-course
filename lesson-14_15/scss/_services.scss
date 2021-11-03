@@ -1,0 +1,73 @@
+.services {
+   background: url(../img/services/Blob2.svg) right -45px top -590px / auto no-repeat;
+   padding: 110px 0px 120px 0px;
+   position: relative;
+   overflow: hidden;
+   &__container {
+   }
+   &__img {
+      position: absolute;
+      top: -580px;
+      right: -50px;
+   }
+
+   &__header {
+      margin-bottom: 78px;
+      z-index: 10;
+   }
+
+   &__items {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px -12px 0px -12px;
+      margin-bottom: 65px;
+      row-gap: 30px;
+   }
+
+   &__item {
+      position: relative;
+      flex: 0 1 33.33%;
+      padding: 0px 12px 0px 12px;
+   }
+
+   &__btn-body {
+      text-align: center;
+   }
+   &__btn {
+      padding: 12px 34px;
+   }
+}
+
+.item {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px 44px 50px 43px;
+   background-color: $color-white;
+   border-radius: 20px;
+   transition: all 0.4s ease-in;
+   &:hover {
+      box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+   }
+   &__img {
+      margin-bottom: 35px;
+   }
+
+   &__title {
+      margin-bottom: 20px;
+      color: $color-salmon;
+      font-weight: 900;
+      font-size: 19px;
+      line-height: 1.35;
+      text-align: center;
+   }
+
+   &__text {
+      font-size: 16px;
+      line-height: 150%;
+      text-align: center;
+      letter-spacing: 0.15px;
+      color: $color-grey;
+   }
+}
