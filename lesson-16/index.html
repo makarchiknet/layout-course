@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">Task 16</header>
+		<main class="main">
+			<div class="main__container">
+
+				<!-- !!!! -->
+
+				<form action="#" class="tech-form" method="post">
+					<h2 class="tech-form__title form-title">Summary</h2>
+
+					<div class="tech-form__subtitle form-subtitle">Estimate Shipping and Tax</div>
+
+					<p class="tech-form__text">Enter your destination to get a shipping estimate.</p>
+
+					<div class="tech-form__address">
+						<div class="form-item">
+							<label for="country" class="form-item__label form-label">Country</label>
+							<select name="country" id="country" class="form-item__select form-select">
+								<option value="Australia" class="form-item__option">Australia</option>
+								<option value="Australia" class="form-item__option">Australia</option>
+								<option value="Australia" class="form-item__option">Australia</option>
+							</select>
+						</div>
+						<div class="form-item">
+							<label for="state" class="form-item__label form-label">State/Province</label>
+							<input class="form-item__input form-input" type="text" name="state/province" id="state">
+						</div>
+						<div class="form-item">
+							<label for="code" class="form-item__label form-label">Zip/Postal Code</label>
+							<input class="form-item__input form-input" type="text" name="Zip/Postal Code" id="code">
+						</div>
+					</div>
+
+
+					<div class="tech-form__delivery delivery ">
+
+						<h3 class="delivery__title">Standard Rate</h3>
+						<div class="delivery__item">
+							<input class="delivery__radio" type="radio" name="rate" id="standard" value="Standard Rate"
+								checked>
+							<label for="standard" class="delivery__label">Price may vary depending on the
+								item/destination. Shop
+								Staff
+								will contact you.
+							</label><span class="delivery__prise">$21.00</span>
+						</div>
+
+						<h3 class="delivery__title">Pickup from store</h3>
+						<div class="delivery__item">
+							<input class="delivery__radio" type="radio" name="rate" id="store" value="Standard Rate">
+							<label for="store" class="delivery__label">1234 Street Adress City Address, 1234
+							</label><span class="delivery__prise">$0.00</span>
+						</div>
+					</div>
+
+					<div class="tech-form__apply apply form-subtitle">Apply Discount Code</div>
+					<div class=" apply__item">
+						<label for="discount" class="form-item__label form-label">Enter discount code</label>
+						<input class="form-item__input form-input" type="text" name="discount" id="discount"
+							placeholder="Enter Discount code">
+					</div>
+
+					<button type="submit" class="tech-form__discont-btn ">Apply Discount</button>
+				</form>
+
+				<!-- !!!! -->
+
+				<form action="#" class="registered-form" method="post">
+					<h2 class="registered-form__title">Registered Customers</h2>
+
+
+
+					<p class="registered-form__text">If you have an account, sign in with your email address.</p>
+
+					<div class="registered-form__data">
+						<div class="registered-form__item form-item ">
+							<label for="email" class="form-item__label form-label">Email<span class="form-item__requiered">
+									*</span></label>
+							<input class="form-item__input form-input" type="email" name="email" id="email"
+								placeholder="Your Email" requiered>
+						</div>
+
+						<div class="registered-form__item form-item">
+							<label for="password" class="form-item__label form-label">Password<span
+									class="form-item__requiered"> *</span></label>
+							<input class="form-item__input form-input" type="password" name="password" id="password "
+								placeholder="Your Password" requiered>
+						</div>
+					</div>
+
+					<button type="submit" class="registered-form__button tech-button">Sign In</button>
+					<a href="#" class="registered-form__forgot-link">Forgot Your Password?</a>
+				</form>
+
+				<!-- !! -->
+
+				<form action="#" class="shipping-form" method="post">
+					<h2 class="shipping-form__title">Shipping Address</h2>
+					<div class="shipping-form__block">
+						<div class="shipping-form__items">
+							<div class="shipping-form__item shipping-form__item_divider form-item ">
+								<label for="email" class="form-item__label form-label">Email Address<span
+										class="form-item__requiered">
+										*</span></label>
+								<input class="form-item__input form-input" type="email" name="email" id="email" requiered>
+								<p class="form-item__text">You can create an account after checkout.</p>
+							</div>
+
+							<div class="shipping-form__item form-item">
+								<label for="first-name" class="form-item__label form-label">First Name<span
+										class="form-item__requiered"> *</span></label>
+								<input class="form-item__input form-input" type="text" name="first-name" id="first-name"
+									requiered>
+							</div>
+
+							<div class="shipping-form__item form-item">
+								<label for="last-name" class="form-item__label form-label">Last Name
+									<span class="form-item__requiered"> *</span></label>
+								<input class="form-item__input form-input" type="text" name="last-name" id="last-name"
+									requiered>
+							</div>
+
+							<div class="shipping-form__item form-item">
+								<label for="company" class="form-item__label form-label">Company
+									<span class="form-item__requiered"> *</span></label>
+								<input class="form-item__input form-input" type="text" name="company" id="company" requiered>
+							</div>
+
+							<div class="shipping-form__item form-item">
+								<label for="address" class="form-item__label form-label">Street Address
+									<span class="form-item__requiered"> *</span></label>
+								<input class="form-item__input form-input" type="text" name="address" id="address1" requiered>
+								<input class="form-item__input form-input" type="text" name="address" id="address2" requiered>
+							</div>
+
+							<div class="shipping-form__item form-item">
+								<label for="city" class="form-item__label form-label">City
+									<span class="form-item__requiered"> *</span></label>
+								<input class="form-item__input form-input" type="text" name="city" id="city" requiered>
+							</div>
+
+							<div class=" shipping-form__item form-item">
+								<label for="country" class="form-item__label form-label">State/Province <span
+										class="form-item__requiered"> *</span></label>
+								<select name="country" id="country" class="form-item__select form-select">
+									<option value="Australia" class="form-item__option" selected>Please, select a region, state
+										or
+										province</option>
+									<option value="Australia" class="form-item__option">Australia</option>
+									<option value="Australia" class="form-item__option">Australia</option>
+									<option value="Australia" class="form-item__option">Australia</option>
+								</select>
+							</div>
+
+							<div class="shipping-form__item form-item">
+								<label for="code" class="form-item__label form-label">Zip/Postal Code <span
+										class="form-item__requiered"> *</span></label>
+								<input class="form-item__input form-input" type="text" name="Zip/Postal Code" id="code">
+							</div>
+
+							<div class="shipping-form__item form-item">
+								<label for="country" class="form-item__label form-label">Country<span
+										class="form-item__requiered"> *</span></label>
+								<select name="country" id="country" class="form-item__select form-select">
+									<option value="Australia" class="form-item__option">Australia</option>
+									<option value="Australia" class="form-item__option" selected>United States</option>
+									<option value="Australia" class="form-item__option">Australia</option>
+								</select>
+							</div>
+
+							<div class="shipping-form__item form-item">
+								<label for="phone" class="form-item__label form-label">Phone Number<span
+										class="form-item__requiered"> *</span></label>
+								<input class="form-item__input form-input" type="tel" name="Zip/Postal Code" id="phone">
+							</div>
+						</div>
+					</div>
+
+					<div class="shipping-form__delivery delivery ">
+
+						<h3 class="delivery__title">Standard Rate</h3>
+						<div class="delivery__item">
+							<input class="delivery__radio" type="radio" name="rate" id="standard2" value="Standard Rate"
+								checked>
+							<label for="standard2" class="delivery__label">Price may vary depending on the
+								item/destination. Shop
+								Staff
+								will contact you.
+							</label>
+							<span class="delivery__prise delivery__prise_bold">$21.00</span>
+						</div>
+
+						<h3 class="delivery__title">Pickup from store</h3>
+						<div class="delivery__item">
+							<input class="delivery__radio" type="radio" name="rate" id="store2" value="Standard Rate">
+							<label for="store2" class="delivery__label">1234 Street Adress City Address, 1234
+							</label>
+							<span class="delivery__prise delivery__prise_bold">$0.00</span>
+						</div>
+					</div>
+					<button type="submit" class="shipping-form__button tech-button">Next</button>
+				</form>
+
+				<!-- !! -->
+
+				<form action="https://jsonplaceholder.typicode.com/posts" method="post" enctype="multipart/form-data"
+					class="appointment__form form" autocomplete="off">
+					<h3 class="form__title">Make an appointment</h3>
+					<div class="form__body">
+
+						<div class="form__group">
+							<input type="text" class="form__input" name="name3" id="name3" value="" placeholder=" " required
+								autocomplete="off">
+							<label for="name3" class="form__label">Name</label>
+						</div>
+
+						<div class="form__group">
+							<input type="email" class="form__input" name="email3" id="email3" value="" placeholder=" " required
+								autocomplete="off">
+							<label for="email3" class="form__label">Email</label>
+						</div>
+
+						<div class="form__group">
+							<input type="tel" class="form__input" name="phone" id="phone3" value="" placeholder=" " required
+								autocomplete="off">
+							<label for="phone3" class="form__label">Phone Number</label>
+						</div>
+
+
+						<div class="form__group select" data-state="">
+							<div class="select__title" data-default="Option 0">Select Service</div>
+							<div class="select__content">
+								<input id="service" class="select__input" type="radio" name="service" disabled />
+								<label for="service" class="select__label">Select Service</label>
+
+								<input id="boarding" class="select__input" type="radio" name="service" />
+								<label for="boarding" class="select__label">Pet Boarding</label>
+
+								<input id="daycare" class="select__input" type="radio" name="service" />
+								<label for="daycare" class="select__label">Pet Daycare</label>
+
+								<input id="grooming" class="select__input" type="radio" name="service" disabled />
+								<label for="grooming" class="select__label">Pet Day Spa & Grooming</label>
+
+								<input id="meal" class="select__input" type="radio" name="service" />
+								<label for="meal" class="select__label">Custom Meal Plans</label>
+
+								<input id="training" class="select__input" type="radio" name="service" />
+								<label for="training" class="select__label">Pet Training</label>
+
+								<input id="store" class="select__input" type="radio" name="service" />
+								<label for="store" class="select__label">Shop Our Store!</label>
+							</div>
+
+						</div>
+
+						<div class="form__group form__group_width">
+							<textarea name="tell-us" id="tell-us" class="form__textarea" value="" placeholder=" "></textarea>
+							<label for="tell-us" class="form__label form__label_top">Tell us about your puppers include
+								his/her
+								name</label>
+						</div>
+
+
+					</div>
+					<button type="submit" class="form__button button">Make an Appointment</button>
+				</form>
+
+				<!-- !! -->
+
+
+
+			</div>
+		</main>
+		<footer class=" footer">Katrin</footer>
+	</div>
+	<script src="js/custom_select.js"></script>
+</body>
+
+</html>
