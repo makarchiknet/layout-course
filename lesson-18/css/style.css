@@ -1422,12 +1422,11 @@ body._lock {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 900;
   font-size: 10px;
-  line-height: 2.5;
   letter-spacing: 1.25px;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 3px;
-  padding: 5px 16px;
+  padding: 10px 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1437,7 +1436,7 @@ body._lock {
 }
 
 .card-recipes__title:not(:last-child) {
-  margin-bottom: 65px;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 550px) {
@@ -1460,7 +1459,6 @@ body._lock {
   line-height: 1.67;
   max-height: 80px;
   max-width: 415px;
-  overflow: hidden;
   font-size: calc(15px + 9 * (100vw / 1140));
 }
 
@@ -1471,6 +1469,12 @@ body._lock {
 @media (max-width: 767px) {
   .card-recipes__text {
     font-size: calc(15px + (9 + 9 * 0.7) * ((100vw - 320px) / 1140));
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-recipes__text {
+    font-size: 24px;
   }
 }
 
